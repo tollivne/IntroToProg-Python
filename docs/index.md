@@ -39,7 +39,9 @@ objFile.close()
 ****Figure 2 - First iteration of code to read from file to memory**** 
 
 Alternatively, each piece of data in the comma delimited text file, can be “unpacked” into the variables that will be used directly in the dictionary as opposed to being held in the list row to be put into the dictionary by using the commands in Figure 3.
-```objFile = open("ToDoList.txt", "r")
+
+```
+objFile = open("ToDoList.txt", "r")
 for row in objFile:
     strTask, strPriority = row.split(",")
     dicRow = {"Task": strTask, "Priority": strPriority}
