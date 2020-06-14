@@ -122,9 +122,9 @@ A screen shot of the original text file is shown in Figure 10.
 ****Figure 11 - Original text file****  
 
 Figure 12 shows the program as run in PyCharm.
-![Figure 12a](https://tollivne.github.io/IntroToProg-Python-Mod05/Figure11a.png "Figure 12a - Output in PyCharm") 
-![Figure 12b](https://tollivne.github.io/IntroToProg-Python-Mod05/Figure11b.png "Figure 12b - Output in PyCharm")  
-![Figure 12c](https://tollivne.github.io/IntroToProg-Python-Mod05/Figure11c.png "Figure 12c - Output in PyCharm")  
+![Figure 12a](https://tollivne.github.io/IntroToProg-Python-Mod05/Figure12a.png "Figure 12a - Output in PyCharm") 
+![Figure 12b](https://tollivne.github.io/IntroToProg-Python-Mod05/Figure12b.png "Figure 12b - Output in PyCharm")  
+![Figure 12c](https://tollivne.github.io/IntroToProg-Python-Mod05/Figure12c.png "Figure 12c - Output in PyCharm")  
 ****Figure 12 - Program run results in PyCharm****  
 
 When the program was run to try and capture the screen shots, one last change had to be made.  The flag to track whether the item to be removed was found was set to “true” once the item was found.  On the second iteration, it would still be true, so even if the item were not found again, the program would not print “item not found.”  I had to go back and make sure I set the flag to “false” before the program started looping through the rows.  Notice that when “Call Mom” was entered, it correctly gave the row not found message.
