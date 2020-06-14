@@ -18,6 +18,7 @@ dicRow = {"Task": "strName", "Priority": "strPriority"}
 print(dicRow["Task"], dicRow["Priority"])
 ```
 ****Figure 1 - Assigning Task & Priority to a Dictionary Row****  
+
 This assignment dealt with one table of data.  The challenge was the many ways this data can be represented in the Python language.  To me, a ToDo list simply looks like a matrix of data in an Excel spreadsheet with multiple rows and two columns, the first row consisting of header information.
 
 In this code, I will use three different representations of the same data.  The “list” type will be used in the code to store the data because with a list, it is easy to change, add, or remove data.  The “list row” will, as the name implies, store a row of data from the list.  It can be a bit confusing, but the “list table” will be used to store the rows.  There is no type called a table.  The table is simply used here to represent all the rows of data.  The “type” for the rows is a list and the “type” for a table is a list.  Both rows and tables are lists.  The list.append() command is used to add a row and list.remove is used to delete a row.
@@ -133,7 +134,8 @@ The new contents of the ToDo List is shown in Figure 13.
 Notice that “Call Katie” has been added and “Buy dog food” has been removed.
 
 Figure 14 shows the results from running the code in the command menu.
-![Figure 14](https://tollivne.github.io/IntroToProg-Python-Mod05/Figure14.png "Figure 14 - Results from running code in command window")
+
+![Figure 14](https://tollivne.github.io/IntroToProg-Python-Mod05/Figure14.png "Figure 14 - Results from running code in command window")  
 ***Figure 14 - Results from running code in command window****  
 
 ## Summary
