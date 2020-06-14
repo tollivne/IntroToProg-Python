@@ -97,7 +97,7 @@ lstTable.append(dicRow)
 ## Step 5 – Remove a New item from the List/Table  
 The remove item list option was the last segment of the program to run successfully.  Originally, I had the if/then/else loop inside the option “3” code in a format like what was shown in class (https://canvas.uw.edu/courses/1359964/discussion_topics/5484996, 5/12/2020, (External)).
 
-![Figure 9](https://tollivne.github.io/IntroToProg-Python-Mod05/Figure8.png "Figure 9 - If/then/else loop format")  
+![Figure 9](https://tollivne.github.io/IntroToProg-Python-Mod05/Figure9.png "Figure 9 - If/then/else loop format")  
 ****Figure 9 - If/then/else loop format****  
 
 When I used that method to find the item to remove, for each row that it checked, if the object were not found, it would print out “row not found.”  It would then go to the next row and print out “row not found.”  If, for example, the list had 12 rows, and the item was in row 12, it would print out “row not found” 11 times until it found the item in row 12.  In order to resolve this issue, I had to take the “row not found” statement outside of the “for loop.”  However, that meant that every time the “for” loop was executed, at the end, the next statement printed would be “row not found.”  This was not what was desired either.  Finally, I created a flag called “strflag” and initialized it to “false” in the beginning of the program.  I then set the flag to “true” when the row was located in the “for loop.”  After the for loop was done, then I added a statement to test to see if the flag was true.  If the flag was false, then the program would print out one time “row not found, please choose option 3 and try re-entering the task to be removed.”  The code is shown in Figure 10.
